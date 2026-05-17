@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /redirect.html
+Allow: /css/
+Sitemap: https://51chigua.com/sitemap.xml

@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://127.0.0.1:8080/)",
+      "Bash(curl -s http://127.0.0.1:8080/api/index.php)",
+      "Bash(python3 -m json.tool)",
+      "Bash(open http://127.0.0.1:8080/)",
+      "Bash(curl -s http://127.0.0.1:8080/)",
+      "Bash(node *)",
+      "Bash(open \"http://127.0.0.1:8080/#exam/day02-how-to-win-friends\")",
+      "WebFetch(domain:api.meiyoufan.com)",
+      "Bash(curl -s --max-time 10 'https://api.meiyoufan.com/tophub/')",
+      "Bash(open \"http://127.0.0.1:8080/#news\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" -H \"Origin: http://127.0.0.1:8080\" \"https://api.meiyoufan.com/tophub/\")",
+      "Bash(curl -s -D - -o /dev/null -H \"Origin: http://127.0.0.1:8080\" \"https://api.meiyoufan.com/tophub/\")",
+      "Bash(open \"http://127.0.0.1:8080/\")"
+    ]
+  }
+}

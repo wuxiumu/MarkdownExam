@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>51吃瓜 - 全网热门爆料_今日头条_热点资讯 - MarkdownExam</title>
+  <meta name="description" content="51吃瓜（51chigua）- 聚合全网热门话题与今日头条热点，微博热搜、抖音热榜一网打尽。吃瓜看新闻就上51吃瓜。">
+  <meta name="keywords" content="51吃瓜,51chigua,吃瓜,今日头条,微博热搜,抖音热榜,热门爆料,热点资讯,新闻聚合,全网热点,51吃瓜官网">
+  <meta name="author" content="51吃瓜 MarkdownExam">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://51chigua.com/redirect.html">
+  <meta property="og:title" content="51吃瓜 - 全网热门资讯">
+  <meta property="og:description" content="51吃瓜（51chigua）聚合全网热榜资讯，微博、抖音、知乎等各大平台热搜一网打尽。">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:site_name" content="51吃瓜 MarkdownExam">
+  <meta property="og:image" id="ogImage" content="">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="51吃瓜 - 全网热门资讯">
+  <meta name="twitter:description" content="51吃瓜（51chigua）聚合全网热榜资讯。">
+  <link rel="stylesheet" href="./css/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "51吃瓜 - 全网热点聚合",
+    "description": "51吃瓜（51chigua）聚合全网热门话题、微博热搜、抖音热榜、知乎热榜等资讯。",
+    "publisher": {
+      "@type": "Organization",
+      "name": "51吃瓜 MarkdownExam",
+      "url": "https://51chigua.com"
+    }
+  }
+  </script>
+  <style>
+    .redirect-page {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 80vh;
+      padding: 24px;
+    }
+    .redirect-card {
+      max-width: 520px;
+      width: 100%;
+      padding: 24px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: var(--surface);
+      box-shadow: var(--shadow);
+      text-align: center;
+    }
+    .redirect-image {
+      width: 100%;
+      max-height: 240px;
+      overflow: hidden;
+      border-radius: 8px;
+      margin-bottom: 16px;
+      background: var(--surface-muted);
+      position: relative;
+    }
+    .redirect-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .redirect-source {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+    .redirect-info {
+      margin-bottom: 18px;
+    }
+    .redirect-info h2 {
+      font-size: 20px;
+      margin-bottom: 6px;
+      line-height: 1.5;
+    }
+    .redirect-target-url {
+      margin-bottom: 14px;
+      padding: 8px 12px;
+      border-radius: 6px;
+      background: var(--surface-muted);
+      word-break: break-all;
+      font-size: 13px;
+    }
+    .redirect-target-url a {
+      color: var(--primary);
+    }
+    .redirect-actions {
+      margin-bottom: 16px;
+    }
+    .redirect-actions .button-link {
+      display: inline-flex;
+    }
+    .redirect-countdown {
+      padding-top: 16px;
+      border-top: 1px solid var(--line);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .redirect-countdown span {
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .redirect-countdown strong {
+      color: var(--primary);
+    }
+    .redirect-countdown-actions {
+      display: flex;
+      gap: 8px;
+    }
+    .news-logo {
+      width: 16px;
+      height: 16px;
+      border-radius: 2px;
+      object-fit: contain;
+    }
+    .news-site {
+      color: var(--muted);
+      font-size: 12px;
+    }
+    .news-extra {
+      padding: 0 6px;
+      height: 18px;
+      display: inline-flex;
+      align-items: center;
+      border-radius: 3px;
+      background: color-mix(in srgb, var(--primary) 10%, var(--surface-muted));
+      color: var(--primary);
+      font-size: 11px;
+      font-weight: 500;
+    }
+    .news-time {
+      color: var(--muted);
+      font-size: 12px;
+    }
+    .img-fallback {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, var(--surface-muted) 0%, color-mix(in srgb, var(--primary) 5%, var(--surface-muted)) 100%);
+    }
+    .img-fallback::before {
+      content: '';
+      display: block;
+      width: 28px;
+      height: 28px;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23999' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3' y='3' width='18' height='18' rx='2' ry='2'/%3E%3Ccircle cx='8.5' cy='8.5' r='1.5'/%3E%3Cpolyline points='21 15 16 10 5 21'/%3E%3C/svg%3E");
+      background-size: contain;
+      background-repeat: no-repeat;
+      opacity: 0.5;
+    }
+    .seo-keywords-footer {
+      max-width: 520px;
+      margin: 16px auto 0;
+      padding: 12px;
+      text-align: center;
+      font-size: 11px;
+      color: var(--muted);
+      line-height: 1.8;
+    }
+    .seo-keywords-footer a {
+      color: var(--muted);
+      text-decoration: none;
+      margin: 0 4px;
+    }
+    .seo-keywords-footer a:hover {
+      color: var(--primary);
+    }
+    @media (max-width: 780px) {
+      .redirect-page {
+        min-height: auto;
+        padding: 16px;
+      }
+      .redirect-card {
+        padding: 18px;
+      }
+      .redirect-image {
+        max-height: 180px;
+      }
+      .redirect-countdown {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a href="index.html" class="brand" title="51吃瓜 - MarkdownExam在线题库">
+        <span class="brand-icon">M</span>
+        <span class="brand-text">51吃瓜 | MarkdownExam</span>
+      </a>
+      <nav class="main-nav">
+        <a href="index.html#/" class="nav-link">首页</a>
+        <a href="index.html#/bank" class="nav-link">题库</a>
+        <a href="index.html#/news" class="nav-link active">新闻</a>
+        <a href="index.html#/about" class="nav-link">关于我们</a>
+      </nav>
+      <div class="topbar-actions">
+        <button id="themeToggle" class="icon-button" type="button" aria-label="切换主题">◐</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="app-shell" id="main">
+    <div class="redirect-page" id="redirectPage"></div>
+    <div class="seo-keywords-footer" id="seoFooter"></div>
+  </main>
+
+  <script>
+    (function () {
+      const params = new URLSearchParams(window.location.search);
+      const id = params.get('id') || '';
+      const title = params.get('title') || '';
+      const site = params.get('site') || '';
+      const extra = params.get('extra') || '';
+      const time = params.get('time') || '';
+      const logo = params.get('logo') || '';
+      const thumbnail = params.get('thumbnail') || '';
+      const targetParam = params.get('url') || '';
+
+      let targetUrl = '';
+      if (targetParam) {
+        try {
+          targetUrl = decodeURIComponent(escape(atob(targetParam)));
+        } catch {
+          targetUrl = '';
+        }
+      }
+
+      function escapeHtml(value) {
+        return String(value || '')
+          .replaceAll('&', '&amp;')
+          .replaceAll('<', '&lt;')
+          .replaceAll('>', '&gt;')
+          .replaceAll('"', '&quot;')
+          .replaceAll("'", '&#039;');
+      }
+
+      // Update SEO meta dynamically
+      if (title) {
+        document.title = title + ' - 51吃瓜 | MarkdownExam';
+        const meta = document.querySelector('meta[name="description"]');
+        if (meta) meta.content = '51吃瓜（51chigua）为您推荐：' + (site ? site + (extra ? ' · ' + extra : '') + ' ' : '') + title;
+        const kw = document.querySelector('meta[name="keywords"]');
+        if (kw) kw.content = title + ',' + site + ',51吃瓜,51chigua,吃瓜,热门,热搜';
+        const og = document.querySelector('meta[property="og:title"]');
+        if (og) og.content = title + ' - 51吃瓜';
+        const ogDesc = document.querySelector('meta[property="og:description"]');
+        if (ogDesc) ogDesc.content = '51吃瓜（51chigua）为您推荐：' + title;
+        const ogImg = document.getElementById('ogImage');
+        if (ogImg && thumbnail) ogImg.content = thumbnail;
+        const tw = document.querySelector('meta[name="twitter:title"]');
+        if (tw) tw.content = title + ' - 51吃瓜';
+        const twDesc = document.querySelector('meta[name="twitter:description"]');
+        if (twDesc) twDesc.content = '51吃瓜（51chigua）为您推荐：' + title;
+      }
+
+      const main = document.getElementById('main');
+      const page = document.getElementById('redirectPage');
+
+      if (!targetUrl) {
+        page.innerHTML = '<div class="notice">找不到跳转链接。<a href="index.html#/news" style="color:var(--primary)">返回51吃瓜新闻页</a></div>';
+        return;
+      }
+
+      function formatNewsTime(timestamp) {
+        if (!timestamp) return '';
+        const date = new Date(Number(timestamp) * 1000);
+        const now = new Date();
+        const diff = Math.floor((now - date) / 60000);
+        if (diff < 1) return '刚刚';
+        if (diff < 60) return diff + ' 分钟前';
+        if (diff < 1440) return Math.floor(diff / 60) + ' 小时前';
+        return date.toLocaleDateString('zh-CN');
+      }
+
+      function truncateUrl(url) {
+        try {
+          const u = new URL(url);
+          return u.hostname + (u.pathname === '/' ? '' : u.pathname);
+        } catch {
+          return url.length > 60 ? url.substring(0, 60) + '…' : url;
+        }
+      }
+
+      const hasThumbnail = thumbnail !== '';
+      const hasLogo = logo !== '';
+      const COUNTDOWN = 5;
+
+      page.innerHTML = `
+        <div class="redirect-card">
+          ${hasThumbnail ? `<div class="redirect-image"><img src="${escapeHtml(thumbnail)}" alt="${escapeHtml(title)} - 51吃瓜" width="520" height="240"></div>` : ''}
+          <div class="redirect-info">
+            <div class="redirect-source">
+              ${hasLogo ? `<img class="news-logo" src="${escapeHtml(logo)}" alt="${escapeHtml(site)}" width="16" height="16" onerror="this.style.display='none'">` : ''}
+              <span class="news-site">${escapeHtml(site)}</span>
+              ${extra ? `<span class="news-extra">${escapeHtml(extra)}</span>` : ''}
+              ${time ? `<span class="news-time">${formatNewsTime(time)}</span>` : ''}
+            </div>
+            <h2>${escapeHtml(title)}</h2>
+          </div>
+          <div class="redirect-target-url">
+            <a href="${escapeHtml(targetUrl)}" target="_blank" rel="noopener" title="51吃瓜 - ${escapeHtml(title)} - 原文链接">${escapeHtml(truncateUrl(targetUrl))}</a>
+          </div>
+          <div class="redirect-actions">
+            <a class="button-link primary" href="${escapeHtml(targetUrl)}" target="_blank" rel="noopener" title="51吃瓜 - 立即打开 ${escapeHtml(title)}">立即打开 - ${escapeHtml(title)}</a>
+          </div>
+          <div class="redirect-countdown" id="countdownArea">
+            <span>正在跳转到外部链接，<strong id="countdownNum">${COUNTDOWN}</strong> 秒后自动跳转…</span>
+            <div class="redirect-countdown-actions">
+              <button type="button" id="cancelBtn">取消</button>
+              <button type="button" id="backBtn">返回</button>
+            </div>
+          </div>
+        </div>
+      `;
+
+      // SEO keywords footer
+      document.getElementById('seoFooter').innerHTML =
+        '51吃瓜 · 51chigua · 吃瓜 · <a href="index.html#/news">今日头条</a> · <a href="index.html#/news">微博热搜</a> · <a href="index.html#/news">抖音热榜</a> · <a href="index.html#/news">热门爆料</a> · <a href="index.html#/news">热点资讯</a> · <a href="index.html#/news">51吃瓜官网</a>';
+
+      // Image error fallback
+      main.addEventListener('error', function (e) {
+        const img = e.target;
+        if (img.tagName !== 'IMG') return;
+        e.stopPropagation();
+        const container = img.closest('.redirect-image');
+        if (container && !container.querySelector('.img-fallback')) {
+          img.style.display = 'none';
+          const fb = document.createElement('div');
+          fb.className = 'img-fallback';
+          container.appendChild(fb);
+        } else {
+          img.style.display = 'none';
+        }
+      }, true);
+
+      // Theme toggle
+      function setTheme(theme) {
+        document.documentElement.dataset.theme = theme;
+        localStorage.setItem('markdown_exam_theme', theme);
+      }
+      setTheme(localStorage.getItem('markdown_exam_theme') || 'light');
+      document.getElementById('themeToggle').addEventListener('click', function () {
+        setTheme(document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark');
+      });
+
+      // Countdown
+      let countdown = COUNTDOWN;
+      let cancelled = false;
+      const timer = setInterval(function () {
+        if (cancelled) return;
+        countdown--;
+        var num = document.getElementById('countdownNum');
+        if (num) num.textContent = countdown;
+        if (countdown <= 0) {
+          clearInterval(timer);
+          window.location.href = targetUrl;
+        }
+      }, 1000);
+
+      // Cancel
+      document.getElementById('cancelBtn').addEventListener('click', function () {
+        cancelled = true;
+        clearInterval(timer);
+        var area = document.getElementById('countdownArea');
+        if (area) {
+          area.innerHTML = '<span>跳转已取消。</span><div class="redirect-countdown-actions"><button type="button" id="backBtn2">返回51吃瓜新闻页</button></div>';
+          document.getElementById('backBtn2').addEventListener('click', function () {
+            window.location.href = 'index.html#/news';
+          });
+        }
+      });
+
+      // Back button
+      document.getElementById('backBtn').addEventListener('click', function () {
+        window.location.href = 'index.html#/news';
+      });
+
+      // ESC to cancel
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape' && !cancelled) {
+          document.getElementById('cancelBtn').click();
+        }
+      });
+    })();
+  </script>
+</body>
+</html>

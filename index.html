@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MarkdownExam - 51吃瓜 | 在线题库自测与全网热点聚合</title>
+  <meta name="description" content="51吃瓜（51chigua）- MarkdownExam在线题库自测平台，汇集全网热门话题、微博热搜、抖音热榜，支持考试模式与练习模式切换，打造沉浸式知识复习与热点追踪体验。">
+  <meta name="keywords" content="51吃瓜,51chigua,51吃瓜官网,在线题库,题库自测,MarkdownExam,热搜聚合,微博热榜,热点追踪,知识复习,在线考试">
+  <meta name="author" content="MarkdownExam">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://51chigua.com/">
+  <meta property="og:title" content="MarkdownExam - 51吃瓜 | 在线题库自测与全网热点聚合">
+  <meta property="og:description" content="51吃瓜（51chigua）在线题库自测平台，全网热门话题聚合，考试练习双模式。">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="zh_CN">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="MarkdownExam - 51吃瓜 | 在线题库自测与热点聚合">
+  <meta name="twitter:description" content="51吃瓜（51chigua）在线题库自测平台，全网热门话题聚合。">
+  <link rel="stylesheet" href="./css/style.css">
+  <meta name="referrer" content="no-referrer" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a href="#/" class="brand" title="51吃瓜 - MarkdownExam在线题库">
+        <span class="brand-icon">M</span>
+        <span class="brand-text">51吃瓜 | MarkdownExam</span>
+      </a>
+      <nav class="main-nav" id="mainNav">
+        <a href="#/" class="nav-link" data-nav="home">首页</a>
+        <a href="#/bank" class="nav-link" data-nav="bank">题库</a>
+        <a href="#/news" class="nav-link" data-nav="news">新闻</a>
+        <a href="#/about" class="nav-link" data-nav="about">关于我们</a>
+      </nav>
+      <div class="topbar-actions">
+        <div class="mode-tabs">
+          <button class="mode-tab active" type="button" data-mode="exam">考试</button>
+          <button class="mode-tab" type="button" data-mode="practice">练习</button>
+        </div>
+        <button id="themeToggle" class="icon-button" type="button" aria-label="切换主题">◐</button>
+        <button id="menuToggle" class="icon-button" type="button" aria-label="菜单">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="app-shell">
+    <section id="homeView" class="view"></section>
+    <section id="examView" class="view hidden"></section>
+    <section id="resultView" class="view hidden"></section>
+    <section id="newsView" class="view hidden"></section>
+    <section id="aboutView" class="view hidden"></section>
+  </main>
+
+  <script src="./js/app.js"></script>
+</body>
+</html>
