@@ -241,6 +241,19 @@
         }
       }
 
+      function isPublicHttpUrl(url) {
+        try {
+          const parsed = new URL(url, window.location.href);
+          return parsed.protocol === 'http:' || parsed.protocol === 'https:';
+        } catch {
+          return false;
+        }
+      }
+
+      if (targetUrl && !isPublicHttpUrl(targetUrl)) {
+        targetUrl = '';
+      }
+
       function escapeHtml(value) {
         return String(value || '')
           .replaceAll('&', '&amp;')

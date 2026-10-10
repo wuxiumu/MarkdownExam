@@ -22,3 +22,6 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+
+# Local commercial deploy overrides
+.env
