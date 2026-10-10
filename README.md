@@ -1,3 +1,9 @@
+# MarkdownExam · Markdown 题库考试页
+
+> 题库写在 MD 里，零配置起一个**可练习/可考试**的页面。适合培训机构、内训、行业考证预习。
+
+**定制：** 微信 **qingbao199101**（备注：考试页）｜ [wuxiumu@163.com](mailto:wuxiumu@163.com)
+
 # MarkdownExam
 零配置部署 | 纯静态前端 | 题库手写 MD 直接改 | 学习自测神器 | 行业知识总结考试
 
@@ -74,3 +80,45 @@ B. 管理数据库连接
 
 解析：HTML 用标签描述网页内容和结构。
 ```
+
+## SEO / GEO 字段预留
+
+> 产品页 / 落地页统一生成时填入；本阶段只预留字段。
+
+| 字段 | 类型 | 用途 |
+|---|---|---|
+| `seo_title` | string | `<title>` / OG title |
+| `seo_description` | string | meta description |
+| `seo_keywords` | string[] | 可选关键词 |
+| `canonical_url` | url | 规范链接 |
+| `og_image` | url | 分享图 |
+| `robots` | string | 如 `index,follow` |
+| `json_ld_type` | string | SoftwareApplication / WebPage / FAQPage |
+| `geo_region` | string | 地域业务时使用 |
+| `geo_placename` | string | 城市/地标 |
+| `geo_position` | string | 可选 lat,long |
+| `hreflang` | map | zh-CN / en |
+| `site_name` | string | 白标品牌名 |
+
+
+## 定制合作
+
+行业题库包、品牌皮肤、成绩导出、多学科目录。加微信备注「考试页」。
+
+---
+
+## 联系方式
+
+定制、演示或合作：
+
+- 邮箱：[wuxiumu@163.com](mailto:wuxiumu@163.com)
+- 微信：**qingbao199101**（添加请备注来意）
+
+### 赞助支持
+
+如果内容对你有帮助，欢迎自愿赞助。
+
+| 微信赞赏码 | 支付宝收款码 |
+|---|---|
+| ![微信赞赏码](https://chiguashentan-test.oss-cn-beijing.aliyuncs.com/wxprogram/zan/20261002185236_31_227.png) | ![支付宝收款码](https://chiguashentan-test.oss-cn-beijing.aliyuncs.com/wxprogram/zan/20261002185309_32_227.jpg) |
+
